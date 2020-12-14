@@ -1,0 +1,623 @@
+{
+  "entities": {
+    "cities": {
+      "lat_35.690_lon_139.692": {
+        "request": {
+          "type": "City",
+          "query": "Tokyo, Japan",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Tokyo",
+          "country": "Japan",
+          "region": "Tokyo",
+          "lat": "35.690",
+          "lon": "139.692",
+          "timezoneId": "Asia/Tokyo",
+          "localtime": "2020-12-14 19:26",
+          "localtimeEpoch": 1607973960,
+          "utcOffset": "9.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 11,
+          "weatherCode": 116,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+          ],
+          "weatherDescriptions": ["Partly cloudy"],
+          "windSpeed": 14,
+          "windDegree": 49,
+          "windDir": "NE",
+          "pressure": 1009,
+          "precip": 0,
+          "humidity": 34,
+          "cloudcover": 49,
+          "feelslike": 9,
+          "uvIndex": 4,
+          "visibility": 10,
+          "isDay": "no"
+        },
+        "isFavorite": false
+      },
+      "lat_28.667_lon_77.217": {
+        "request": {
+          "type": "City",
+          "query": "Delhi, India",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Delhi",
+          "country": "India",
+          "region": "Delhi",
+          "lat": "28.667",
+          "lon": "77.217",
+          "timezoneId": "Asia/Kolkata",
+          "localtime": "2020-12-14 15:56",
+          "localtimeEpoch": 1607961360,
+          "utcOffset": "5.50"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 17,
+          "weatherCode": 143,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0006_mist.png"
+          ],
+          "weatherDescriptions": ["Haze"],
+          "windSpeed": 13,
+          "windDegree": 330,
+          "windDir": "NNW",
+          "pressure": 1016,
+          "precip": 0,
+          "humidity": 55,
+          "cloudcover": 0,
+          "feelslike": 17,
+          "uvIndex": 6,
+          "visibility": 3,
+          "isDay": "yes"
+        },
+        "isFavorite": false
+      },
+      "lat_31.005_lon_121.409": {
+        "request": {
+          "type": "City",
+          "query": "Shanghai, China",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Shanghai",
+          "country": "China",
+          "region": "Shanghai",
+          "lat": "31.005",
+          "lon": "121.409",
+          "timezoneId": "Asia/Shanghai",
+          "localtime": "2020-12-14 18:26",
+          "localtimeEpoch": 1607970360,
+          "utcOffset": "8.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 4,
+          "weatherCode": 113,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png"
+          ],
+          "weatherDescriptions": ["Clear"],
+          "windSpeed": 26,
+          "windDegree": 350,
+          "windDir": "N",
+          "pressure": 1032,
+          "precip": 0,
+          "humidity": 44,
+          "cloudcover": 0,
+          "feelslike": 0,
+          "uvIndex": 2,
+          "visibility": 10,
+          "isDay": "no"
+        },
+        "isFavorite": false
+      },
+      "lat_-23.533_lon_-46.617": {
+        "request": {
+          "type": "City",
+          "query": "Sao Paulo, Brazil",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Sao Paulo",
+          "country": "Brazil",
+          "region": "Sao Paulo",
+          "lat": "-23.533",
+          "lon": "-46.617",
+          "timezoneId": "America/Sao_Paulo",
+          "localtime": "2020-12-14 07:26",
+          "localtimeEpoch": 1607930760,
+          "utcOffset": "-3.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 20,
+          "weatherCode": 113,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+          ],
+          "weatherDescriptions": ["Sunny"],
+          "windSpeed": 13,
+          "windDegree": 360,
+          "windDir": "N",
+          "pressure": 1015,
+          "precip": 1.5,
+          "humidity": 83,
+          "cloudcover": 0,
+          "feelslike": 20,
+          "uvIndex": 1,
+          "visibility": 10,
+          "isDay": "yes"
+        },
+        "isFavorite": false
+      },
+      "lat_19.429_lon_-99.128": {
+        "request": {
+          "type": "City",
+          "query": "Mexico City, Mexico",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Mexico City",
+          "country": "Mexico",
+          "region": "The Federal District",
+          "lat": "19.429",
+          "lon": "-99.128",
+          "timezoneId": "America/Mexico_City",
+          "localtime": "2020-12-14 04:26",
+          "localtimeEpoch": 1607919960,
+          "utcOffset": "-6.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 19,
+          "weatherCode": 116,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+          ],
+          "weatherDescriptions": ["Partly cloudy"],
+          "windSpeed": 4,
+          "windDegree": 50,
+          "windDir": "NE",
+          "pressure": 1019,
+          "precip": 0,
+          "humidity": 45,
+          "cloudcover": 3,
+          "feelslike": 19,
+          "uvIndex": 1,
+          "visibility": 10,
+          "isDay": "no"
+        },
+        "isFavorite": false
+      },
+      "lat_30.050_lon_31.250": {
+        "request": {
+          "type": "City",
+          "query": "Cairo, Egypt",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Cairo",
+          "country": "Egypt",
+          "region": "Al Qahirah",
+          "lat": "30.050",
+          "lon": "31.250",
+          "timezoneId": "Africa/Cairo",
+          "localtime": "2020-12-14 12:26",
+          "localtimeEpoch": 1607948760,
+          "utcOffset": "2.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 21,
+          "weatherCode": 116,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+          ],
+          "weatherDescriptions": ["Partly cloudy"],
+          "windSpeed": 31,
+          "windDegree": 220,
+          "windDir": "SW",
+          "pressure": 1010,
+          "precip": 0,
+          "humidity": 43,
+          "cloudcover": 50,
+          "feelslike": 21,
+          "uvIndex": 5,
+          "visibility": 6,
+          "isDay": "yes"
+        },
+        "isFavorite": false
+      },
+      "lat_23.723_lon_90.409": {
+        "request": {
+          "type": "City",
+          "query": "Dhaka, Bangladesh",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Dhaka",
+          "country": "Bangladesh",
+          "region": "",
+          "lat": "23.723",
+          "lon": "90.409",
+          "timezoneId": "Asia/Dhaka",
+          "localtime": "2020-12-14 16:26",
+          "localtimeEpoch": 1607963160,
+          "utcOffset": "6.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 29,
+          "weatherCode": 116,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+          ],
+          "weatherDescriptions": ["Partly cloudy"],
+          "windSpeed": 10,
+          "windDegree": 332,
+          "windDir": "NNW",
+          "pressure": 1013,
+          "precip": 0,
+          "humidity": 38,
+          "cloudcover": 9,
+          "feelslike": 28,
+          "uvIndex": 7,
+          "visibility": 10,
+          "isDay": "yes"
+        },
+        "isFavorite": false
+      },
+      "lat_18.975_lon_72.826": {
+        "request": {
+          "type": "City",
+          "query": "Mumbai, India",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Mumbai",
+          "country": "India",
+          "region": "Maharashtra",
+          "lat": "18.975",
+          "lon": "72.826",
+          "timezoneId": "Asia/Kolkata",
+          "localtime": "2020-12-14 15:56",
+          "localtimeEpoch": 1607961360,
+          "utcOffset": "5.50"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 26,
+          "weatherCode": 122,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+          ],
+          "weatherDescriptions": ["Smoke"],
+          "windSpeed": 7,
+          "windDegree": 80,
+          "windDir": "E",
+          "pressure": 1010,
+          "precip": 0,
+          "humidity": 74,
+          "cloudcover": 75,
+          "feelslike": 27,
+          "uvIndex": 7,
+          "visibility": 3,
+          "isDay": "yes"
+        },
+        "isFavorite": false
+      },
+      "lat_39.929_lon_116.388": {
+        "request": {
+          "type": "City",
+          "query": "Beijing, China",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Beijing",
+          "country": "China",
+          "region": "Beijing",
+          "lat": "39.929",
+          "lon": "116.388",
+          "timezoneId": "Asia/Shanghai",
+          "localtime": "2020-12-14 18:26",
+          "localtimeEpoch": 1607970360,
+          "utcOffset": "8.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": -2,
+          "weatherCode": 113,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0008_clear_sky_night.png"
+          ],
+          "weatherDescriptions": ["Clear"],
+          "windSpeed": 26,
+          "windDegree": 290,
+          "windDir": "WNW",
+          "pressure": 1034,
+          "precip": 0,
+          "humidity": 20,
+          "cloudcover": 0,
+          "feelslike": -6,
+          "uvIndex": 2,
+          "visibility": 10,
+          "isDay": "no"
+        },
+        "isFavorite": false
+      },
+      "lat_34.667_lon_135.583": {
+        "request": {
+          "type": "City",
+          "query": "Higashi-Osaka, Japan",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Higashi-Osaka",
+          "country": "Japan",
+          "region": "Osaka",
+          "lat": "34.667",
+          "lon": "135.583",
+          "timezoneId": "Asia/Tokyo",
+          "localtime": "2020-12-14 19:26",
+          "localtimeEpoch": 1607973960,
+          "utcOffset": "9.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 7,
+          "weatherCode": 116,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+          ],
+          "weatherDescriptions": ["Partly cloudy"],
+          "windSpeed": 13,
+          "windDegree": 330,
+          "windDir": "NNW",
+          "pressure": 1015,
+          "precip": 0,
+          "humidity": 66,
+          "cloudcover": 50,
+          "feelslike": 3,
+          "uvIndex": 3,
+          "visibility": 10,
+          "isDay": "no"
+        },
+        "isFavorite": false
+      },
+      "lat_24.867_lon_67.050": {
+        "request": {
+          "type": "City",
+          "query": "Karachi, Pakistan",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Karachi",
+          "country": "Pakistan",
+          "region": "Sindh",
+          "lat": "24.867",
+          "lon": "67.050",
+          "timezoneId": "Asia/Karachi",
+          "localtime": "2020-12-14 15:26",
+          "localtimeEpoch": 1607959560,
+          "utcOffset": "5.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 25,
+          "weatherCode": 113,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+          ],
+          "weatherDescriptions": ["Sunny"],
+          "windSpeed": 9,
+          "windDegree": 300,
+          "windDir": "WNW",
+          "pressure": 1015,
+          "precip": 0,
+          "humidity": 21,
+          "cloudcover": 0,
+          "feelslike": 24,
+          "uvIndex": 7,
+          "visibility": 6,
+          "isDay": "yes"
+        },
+        "isFavorite": false
+      },
+      "lat_29.563_lon_106.553": {
+        "request": {
+          "type": "City",
+          "query": "Chongqing, China",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Chongqing",
+          "country": "China",
+          "region": "Chongqing",
+          "lat": "29.563",
+          "lon": "106.553",
+          "timezoneId": "Asia/Shanghai",
+          "localtime": "2020-12-14 18:26",
+          "localtimeEpoch": 1607970360,
+          "utcOffset": "8.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 6,
+          "weatherCode": 143,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0006_mist.png"
+          ],
+          "weatherDescriptions": ["Mist"],
+          "windSpeed": 15,
+          "windDegree": 20,
+          "windDir": "NNE",
+          "pressure": 1025,
+          "precip": 0.3,
+          "humidity": 93,
+          "cloudcover": 50,
+          "feelslike": 4,
+          "uvIndex": 2,
+          "visibility": 5,
+          "isDay": "no"
+        },
+        "isFavorite": false
+      },
+      "lat_41.019_lon_28.965": {
+        "request": {
+          "type": "City",
+          "query": "Istanbul, Turkey",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Istanbul",
+          "country": "Turkey",
+          "region": "Istanbul",
+          "lat": "41.019",
+          "lon": "28.965",
+          "timezoneId": "Europe/Istanbul",
+          "localtime": "2020-12-14 13:26",
+          "localtimeEpoch": 1607952360,
+          "utcOffset": "3.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 12,
+          "weatherCode": 116,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+          ],
+          "weatherDescriptions": ["Partly cloudy"],
+          "windSpeed": 33,
+          "windDegree": 10,
+          "windDir": "N",
+          "pressure": 1007,
+          "precip": 0,
+          "humidity": 94,
+          "cloudcover": 75,
+          "feelslike": 9,
+          "uvIndex": 4,
+          "visibility": 8,
+          "isDay": "yes"
+        },
+        "isFavorite": false
+      },
+      "lat_-34.588_lon_-58.673": {
+        "request": {
+          "type": "City",
+          "query": "Buenos Aires, Argentina",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Buenos Aires",
+          "country": "Argentina",
+          "region": "Distrito Federal",
+          "lat": "-34.588",
+          "lon": "-58.673",
+          "timezoneId": "America/Argentina/Buenos_Aires",
+          "localtime": "2020-12-14 07:26",
+          "localtimeEpoch": 1607930760,
+          "utcOffset": "-3.0"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 16,
+          "weatherCode": 113,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+          ],
+          "weatherDescriptions": ["Sunny"],
+          "windSpeed": 19,
+          "windDegree": 360,
+          "windDir": "N",
+          "pressure": 1012,
+          "precip": 0,
+          "humidity": 77,
+          "cloudcover": 0,
+          "feelslike": 16,
+          "uvIndex": 1,
+          "visibility": 10,
+          "isDay": "yes"
+        },
+        "isFavorite": false
+      },
+      "lat_22.570_lon_88.370": {
+        "request": {
+          "type": "City",
+          "query": "Kolkata, India",
+          "language": "en",
+          "unit": "m"
+        },
+        "location": {
+          "name": "Kolkata",
+          "country": "India",
+          "region": "West Bengal",
+          "lat": "22.570",
+          "lon": "88.370",
+          "timezoneId": "Asia/Kolkata",
+          "localtime": "2020-12-14 15:56",
+          "localtimeEpoch": 1607961360,
+          "utcOffset": "5.50"
+        },
+        "current": {
+          "observationTime": "10:26 AM",
+          "temperature": 26,
+          "weatherCode": 143,
+          "weatherIcons": [
+            "https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0006_mist.png"
+          ],
+          "weatherDescriptions": ["Haze"],
+          "windSpeed": 11,
+          "windDegree": 320,
+          "windDir": "NW",
+          "pressure": 1012,
+          "precip": 0,
+          "humidity": 54,
+          "cloudcover": 0,
+          "feelslike": 26,
+          "uvIndex": 8,
+          "visibility": 3,
+          "isDay": "yes"
+        },
+        "isFavorite": false
+      }
+    }
+  },
+  "result": [
+    "lat_35.690_lon_139.692",
+    "lat_28.667_lon_77.217",
+    "lat_31.005_lon_121.409",
+    "lat_-23.533_lon_-46.617",
+    "lat_19.429_lon_-99.128",
+    "lat_30.050_lon_31.250",
+    "lat_23.723_lon_90.409",
+    "lat_18.975_lon_72.826",
+    "lat_39.929_lon_116.388",
+    "lat_34.667_lon_135.583",
+    "lat_24.867_lon_67.050",
+    "lat_29.563_lon_106.553",
+    "lat_41.019_lon_28.965",
+    "lat_-34.588_lon_-58.673",
+    "lat_22.570_lon_88.370"
+  ]
+}
