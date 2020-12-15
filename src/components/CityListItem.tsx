@@ -44,7 +44,11 @@ function CityListItem({
   return (
     <div className="w5  ph3 pv3 bb b mb1 bg-white b--gray flex justify-between">
       <div className="flex flex-column">
-        <Link to={`/${slug}`} className="f6 fw5 mb2 truncate">
+        <Link
+          style={{ width: "10rem" }}
+          to={`/${slug}`}
+          className="f6 fw5 mb2 truncate"
+        >
           {city.location?.name}, {city.location?.country}
         </Link>
         {city.current ? (
