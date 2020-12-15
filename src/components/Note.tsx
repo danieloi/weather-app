@@ -40,14 +40,14 @@ function Note({ note, deleteNote, editNote }: PropsFromRedux & OwnProps) {
     <div className="mr3 mb3">
       <div className="mb1">
         <button
-          className="bg-white ba pv1 ph2 f7"
+          className="bg-white w3 ba pv2 ph3 f7"
           disabled={!beenEdited}
           onClick={() => handleSaveClick()}
         >
           Save
         </button>
         <button
-          className="bg-white ba pv1 ph2 f7"
+          className="bg-white w3 ba pv2 ph3 f7"
           onClick={() => handleDeleteClick()}
         >
           Delete

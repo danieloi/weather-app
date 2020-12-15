@@ -24,6 +24,10 @@ City Detail Screen
 
 City Detail Screen With Note
 
+## Video Walkthrough
+
+[watch here](https://youtu.be/6z6iVuVFZrE)
+
 ## Todo
 
 Display all notes even for removed cities or

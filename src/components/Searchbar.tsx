@@ -52,7 +52,7 @@ export default function Searchbar() {
         <div className="flex w-100 justify-between">
           <input
             placeholder='Type and hit "Search"'
-            className="ba  ph2 "
+            className="ba pv2 ph2 br0 pa1"
             type="search"
             onChange={handleChange}
             value={value}

@@ -60,13 +60,13 @@ function CityListItem({
       <div className="flex flex-column">
         <button
           onClick={handleStarClick}
-          className="ph1 f7 w3 bg-white ba mb2 b--light-silver"
+          className="ph1 h2 f7 w3 bg-white ba mb2 b--light-silver"
         >
           {city.isFavorite ? "unstar" : "star"}
         </button>
         <button
           onClick={handleBookmarkClick}
-          className="f7 w3 bg-white ba b--light-silver"
+          className="f7 w3 h2 bg-white ba b--light-silver"
         >
           {city.isBookmarked ? "unmark" : "mark"}
         </button>

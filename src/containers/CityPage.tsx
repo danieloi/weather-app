@@ -91,7 +91,10 @@ function CityPage({
     <div className="mw6 pa3">
       <div className="flex justify-center">
         <div className="flex flex-column items-center">
-          <button onClick={handleRefreshClick} className="bg-white b mb3">
+          <button
+            onClick={handleRefreshClick}
+            className="bg-white b mb3 pv2 ph3"
+          >
             Refresh
           </button>
           <p className="f7 mb3">
@@ -104,13 +107,13 @@ function CityPage({
           <div className="w5 flex justify-between mb2">
             <button
               onClick={handleStarClick}
-              className="br2 ph1 f7 w3 bg-white ba  b--light-silver"
+              className="br2 ph2 pv2  f7 w3 bg-white ba  b--light-silver"
             >
               {city.isFavorite ? "unstar" : "star"}
             </button>
             <button
               onClick={handleBookmarkClick}
-              className="br2 f7 w3 bg-white ba b--light-silver"
+              className="br2 ph2 pv2 f7  w3 bg-white ba b--light-silver"
             >
               {city.isBookmarked ? "unmark" : "mark"}
             </button>
@@ -140,7 +143,7 @@ function CityPage({
         </div>
       </div>
       <div className="flex justify-center">
-        <button onClick={handleAddNoteClick} className="bg-white b mb3">
+        <button onClick={handleAddNoteClick} className="bg-white b mb3 pv2 ph3">
           Add Note
         </button>
       </div>
