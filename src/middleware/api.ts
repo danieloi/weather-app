@@ -4,7 +4,7 @@ import { Middleware } from "redux";
 import { RootState } from "../reducers";
 import slugify from "@sindresorhus/slugify";
 
-const API_ROOT = "http://api.weatherstack.com/";
+const API_ROOT = "https://api.weatherstack.com/";
 
 /**
  * TODO put access_key in backend

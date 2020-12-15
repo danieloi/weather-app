@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import { ACCESS_KEY } from "../middleware/api";
 
-const WEATHERSTACK_ENDPOINT = `http://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=`;
+const WEATHERSTACK_ENDPOINT = `https://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=`;
 
 export default function useCurrentLocation() {
   const history = useHistory();

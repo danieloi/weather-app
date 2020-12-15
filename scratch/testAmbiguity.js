@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 
 const ACCESS_KEY = "06e5a1e4a51875d41289eadaf5e6e591";
 
-const WEATHERSTACK_ENDPOINT = `http://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=`;
+const WEATHERSTACK_ENDPOINT = `https://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=`;
 
 async function fetchCityDetails() {
   try {

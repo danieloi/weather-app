@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { ACCESS_KEY, generateLocationId } from "../middleware/api";
-import List from "./List";
-const WEATHERSTACK_ENDPOINT = `http://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=`;
+const WEATHERSTACK_ENDPOINT = `https://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=`;
 
 export default function Searchbar() {
   const [value, setValue] = useState("");
@@ -31,6 +30,11 @@ export default function Searchbar() {
   }
 
   function renderResult(result: any) {
+    console.log({ result });
+
+    if (result.error) {
+      return null;
+    }
     const { name, country } = result.location;
     const slug = generateLocationId(result);
     return (
@@ -48,13 +52,17 @@ export default function Searchbar() {
         <div className="flex w-100 justify-between">
           <input
             placeholder='Type and hit "Search"'
-            className="ba  ph2"
-            type="text"
+            className="ba  ph2 "
+            type="search"
             onChange={handleChange}
             value={value}
           />
-          <button className="bg-white b " type="submit">
-            Search
+          <button
+            disabled={!value.length}
+            className="bg-white b w4 ml2"
+            type="submit"
+          >
+            {isFetching ? "Loading" : "Search"}
           </button>
         </div>
       </form>
